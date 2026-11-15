@@ -1,0 +1,4 @@
+# Scripts shell sempre com quebra de linha LF: com CRLF (padrão do Windows) o bash
+# falha com "bad interpreter" e o sbatch recusa o script ("DOS line breaks").
+* text=auto
+*.sh text eol=lf

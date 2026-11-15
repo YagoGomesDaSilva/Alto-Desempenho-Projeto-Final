@@ -1,0 +1,11 @@
+# Executáveis
+sequencial/sir_seq
+mpi_openmp/sir_mpi_omp
+openmp_gpu/sir_omp_gpu
+cuda/sir_cuda
+*.o
+
+# Saídas dos jobs Slurm e imagens geradas
+*.out
+*.err
+*.ppm
